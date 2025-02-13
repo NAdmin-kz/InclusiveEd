@@ -1,1 +1,1 @@
-# InclusiveEd.kz
+# InclusiveEd
