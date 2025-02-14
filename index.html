@@ -93,6 +93,10 @@
             color: #e2efff; 
             border-color: #009966; 
        }
+        .gallery-title {
+           color: #e2efff; 
+           border-color: #0077cc; 
+      }
     </style>
 </head>
 <body>
@@ -169,17 +173,20 @@
   <h2 class="title trainer-title" onclick="toggleContent('trainer')">Тренажор</h2>
 <div id="trainer" class="hidden link-box">
     <p><b>1. Дислексия</b></p>
-    <b>Дислексияға арналған материалдар</b>
+    <b>Дислексияға арналған материалдар</b><br>
     <a href="/InclusiveEd/document3.pdf" download>Жүктеп алу</a><br>
     <a href="/InclusiveEd/document4.pdf" download>Жүктеп алу</a>
 
     <p><b>2. Дисграфия</b></p>
-    <b>Дисграфия арналған материалдар</b>
+    <b>Дисграфия арналған материалдар</b><br>
     <a href="/InclusiveEd/document5.pdf" download>Жүктеп алу</a><br>
     <a href="/InclusiveEd/document6.pdf" download>Жүктеп алу</a>  
 </div>
-    <h2 class="title trainer-title" onclick="toggleContent('trainer')">Галерея</h2>
-<div id="trainer" class="hidden link-box">
+  <h2 class="title gallery-title" onclick="toggleContent('gallery')">Галерея</h2>
+<div id="gallery" class="hidden link-box">
+    <p><b>Суреттер жинағы:</b></p>
+    <img src="img/gallery1.jpg" alt="Сурет 1" style="width: 100%; border-radius: 10px; margin-top: 10px;">
+    <img src="img/gallery2.jpg" alt="Сурет 2" style="width: 100%; border-radius: 10px; margin-top: 10px;">
 </div>
     <script>
         function toggleContent(id) {
