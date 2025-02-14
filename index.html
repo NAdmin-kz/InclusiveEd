@@ -102,11 +102,7 @@
             });
 
             var selected = document.getElementById(id);
-            if (selected.style.display === 'block') {
-                selected.style.display = 'none';
-            } else {
-                selected.style.display = 'block';
-            }
+            selected.style.display = selected.style.display === 'block' ? 'none' : 'block';
         }
     </script>
 
