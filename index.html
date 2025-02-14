@@ -15,20 +15,14 @@
             text-align: center;
         }
         header {
-            background: transparent;
             padding: 20px;
             font-size: 24px;
-        }
-        .logo {
-            width: 150px;
-            margin-top: 20px;
         }
         .container {
             max-width: 1000px;
             margin: 40px auto;
             padding: 20px;
             background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
             border-radius: 10px;
         }
         .title {
@@ -40,16 +34,6 @@
             border-bottom: 4px solid;
             width: 80%;
             margin: 20px auto;
-            text-align: center;
-            font-family: 'Kaliningrad Historical G', sans-serif;
-        }
-        .left-title {
-            color: #fff;
-            border-color: #00c3ff;
-        }
-        .right-title {
-            color: #e2efff;
-            border-color: #ffccff;
         }
         .game-title {
             color: #ffcc00;
@@ -64,30 +48,6 @@
         }
         .hidden {
             display: none;
-        }
-        .examples {
-            text-align: left;
-            margin-top: 15px;
-            font-size: 18px;
-            line-height: 1.6;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
-        .examples li {
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-        .gallery img {
-            width: 100%;
-            margin-top: 15px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            transition: transform 0.3s ease;
-        }
-        .gallery img:hover {
-            transform: scale(1.05);
         }
         .link-box {
             margin-top: 15px;
@@ -116,27 +76,16 @@
     </header>
 
     <div class="container">
-        <h2 class="title left-title" onclick="toggleContent('examples1')">Ерекше қажеттіліктері бар балаларды оқытудағы заманауи технологиялар</h2>
-        <div id="examples1" class="hidden">
-            <p><b>Мысалы:</b></p>
-            <ul class="examples">
-                <li>1. Инклюзивті білім беруге ойын технологияларын пайдалану.</li>
-                <p>Ойындар арқылы балалар жаңа білімді оңай меңгереді. LEGO ойындары, интерактивті тақталар, AR/VR технологиялары ерекше қажеттіліктері бар балаларға көмектеседі.</p>
-                <li>2. Ерекше білім беру қажеттіліктері бар балалардың оқу жетістіктерін бағалау.</li>
-                <p>Дәстүрлі бағалау жүйесі инклюзивті сыныптарға сәйкес келмейді. Портфолио, жобалық жұмыс, вербалды бағалау әдістері қолданылады.</p>
-            </ul>
+        <h2 class="title game-title" onclick="toggleContent('games')">Ойындар</h2>
+        <div id="games" class="hidden">
+            <p><b>1-ші ойын: Ғылыми экспедиция</b></p>
+            <p>🔹 Сценарий: Ғалымдар командасы ретінде оқушылар жоғалып кеткен зерттеушіні табу немесе климаттық апаттың алдын алу керек.</p>
         </div>
 
         <h2 class="title methodology-title" onclick="toggleContent('methodology')">Әдістемелік қоржын</h2>
         <div id="methodology" class="hidden link-box">
             <p><b>Қажетті материалдар:</b></p>
             <a href="your-link-here" target="_blank">Мұнда басып, материалды қараңыз</a>
-        </div>
-
-        <h2 class="title game-title" onclick="toggleContent('games')">Ойындар</h2>
-        <div id="games" class="hidden">
-            <p><b>1-ші ойын: Ғылыми экспедиция</b></p>
-            <p>🔹 Сценарий: Ғалымдар командасы ретінде оқушылар жоғалып кеткен зерттеушіні табу немесе климаттық апаттың алдын алу керек.</p>
         </div>
     </div>
 
